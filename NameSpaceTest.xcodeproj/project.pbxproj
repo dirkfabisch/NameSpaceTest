@@ -14,6 +14,8 @@
 		43A5021A1A245D5500E6FB5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A502191A245D5500E6FB5B /* Images.xcassets */; };
 		43A5021D1A245D5500E6FB5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43A5021B1A245D5500E6FB5B /* LaunchScreen.xib */; };
 		43A502291A245D5500E6FB5B /* NameSpaceTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A502281A245D5500E6FB5B /* NameSpaceTestTests.swift */; };
+		43A502331A245DFB00E6FB5B /* Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A502321A245DFB00E6FB5B /* Boss.swift */; };
+		43A502341A245DFB00E6FB5B /* Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A502321A245DFB00E6FB5B /* Boss.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 		43A502221A245D5500E6FB5B /* NameSpaceTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NameSpaceTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A502271A245D5500E6FB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43A502281A245D5500E6FB5B /* NameSpaceTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameSpaceTestTests.swift; sourceTree = "<group>"; };
+		43A502321A245DFB00E6FB5B /* Boss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boss.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 				43A502191A245D5500E6FB5B /* Images.xcassets */,
 				43A5021B1A245D5500E6FB5B /* LaunchScreen.xib */,
 				43A502111A245D5500E6FB5B /* NameSpaceTest.xcdatamodeld */,
+				43A502321A245DFB00E6FB5B /* Boss.swift */,
 				43A5020D1A245D5500E6FB5B /* Supporting Files */,
 			);
 			path = NameSpaceTest;
@@ -215,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A502331A245DFB00E6FB5B /* Boss.swift in Sources */,
 				43A502151A245D5500E6FB5B /* ViewController.swift in Sources */,
 				43A502101A245D5500E6FB5B /* AppDelegate.swift in Sources */,
 				43A502131A245D5500E6FB5B /* NameSpaceTest.xcdatamodeld in Sources */,
@@ -225,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A502341A245DFB00E6FB5B /* Boss.swift in Sources */,
 				43A502291A245D5500E6FB5B /* NameSpaceTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
