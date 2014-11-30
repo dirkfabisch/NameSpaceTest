@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9F3B89E9-4772-4A1E-9A6A-B4234636F4F5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NameSpaceTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F46DA48929D332C9D1F703631A0F42F91DAD278D</key>
+		<string>https://github.com/dirkfabisch/NameSpaceTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NameSpaceTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F46DA48929D332C9D1F703631A0F42F91DAD278D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dirkfabisch/NameSpaceTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F46DA48929D332C9D1F703631A0F42F91DAD278D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F46DA48929D332C9D1F703631A0F42F91DAD278D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NameSpaceTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

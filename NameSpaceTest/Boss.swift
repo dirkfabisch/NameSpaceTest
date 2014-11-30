@@ -10,8 +10,8 @@ import Foundation
 import CoreData
 
 @objc(Boss)
-class Boss: NSManagedObject {
+public class Boss: NSManagedObject {
 
-    @NSManaged var name: String
+    @NSManaged public var name: String
 
 }

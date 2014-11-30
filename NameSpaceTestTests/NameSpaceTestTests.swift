@@ -9,6 +9,7 @@
 import UIKit
 import XCTest
 import CoreData
+import NameSpaceTest
 
 class NameSpaceTestTests: XCTestCase {
   
@@ -33,31 +34,22 @@ class NameSpaceTestTests: XCTestCase {
       // setup item
       let entity = NSEntityDescription.entityForName("Boss", inManagedObjectContext: moc)
       let boss = Boss(entity: entity!, insertIntoManagedObjectContext: moc)
-
-//      let boss = NSEntityDescription.insertNewObjectForEntityForName("Boss", inManagedObjectContext: moc) as Boss
       boss.name = "Chef"
       
-      var bosses = [Boss]()
-      
-      var request = NSFetchRequest(entityName: "Boss")
       var e: NSError?
-      if let results = moc.executeFetchRequest(request, error: &e) {
-        println("results: \n\(results.description)\nCount:\(results.count)")
-        if let downcastedSwiftArray = results as? [Boss] {
-          // downcastedSwiftArray contains only UIView objects
-          bosses = downcastedSwiftArray
-        } else  {
-          XCTAssert(false, "Down Cast Error")
-        }
-        println("Bosses : \n\(bosses.description)")
+      moc.save(&e)
+      
+      var bosses = [Boss]()
+      var request = NSFetchRequest(entityName: "Boss")
+ 
+      if let results = moc.executeFetchRequest(request, error: &e) as? [Boss] {
+        bosses = results
       } else {
         println("fetch error: \(e!.localizedDescription)")
         abort();
       }
 
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+      XCTAssertGreaterThan(bosses.count, 0, "No Items in fetch request")
+      
     }
-    
-  
 }

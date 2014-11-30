@@ -15,7 +15,6 @@
 		43A5021D1A245D5500E6FB5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43A5021B1A245D5500E6FB5B /* LaunchScreen.xib */; };
 		43A502291A245D5500E6FB5B /* NameSpaceTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A502281A245D5500E6FB5B /* NameSpaceTestTests.swift */; };
 		43A502331A245DFB00E6FB5B /* Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A502321A245DFB00E6FB5B /* Boss.swift */; };
-		43A502341A245DFB00E6FB5B /* Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A502321A245DFB00E6FB5B /* Boss.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -230,7 +229,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43A502341A245DFB00E6FB5B /* Boss.swift in Sources */,
 				43A502291A245D5500E6FB5B /* NameSpaceTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NameSpaceTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NameSpaceTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -415,6 +415,7 @@
 				43A5022E1A245D5500E6FB5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43A5022F1A245D5500E6FB5B /* Build configuration list for PBXNativeTarget "NameSpaceTestTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +424,7 @@
 				43A502311A245D5500E6FB5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
